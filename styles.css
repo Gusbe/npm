@@ -1,0 +1,251 @@
+* {
+  /*border: 1px solid black;*/
+}
+
+body {
+  font-family: arial;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2.5em;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  letter-spacing: 1.5pt;
+}
+
+li {
+  margin: 5px;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 35px;
+}
+
+nav a{
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left {
+  float: left;
+  padding: 0;
+  margin: 0 0 0 20px;
+}
+
+.header-search {
+ vertical-align: top;
+}
+
+.logo-image {
+  float: left;
+  margin: 15px 20px;
+
+}
+
+.search {
+  float: left;
+  margin: 15px 0 15px 0;
+  padding: 0px;
+  width: auto;
+}
+
+.login-link {
+  float: right;
+
+}
+
+input {
+  border: 1px solid rgb(78,108,136);
+  background-color: rgb(31, 82,111);
+  width: 1000px;
+  height: 46px;
+  margin-top: 0px;
+  float: left;
+
+}
+
+button {
+  border: 1px solid rgb(78,108,136);
+  background-image: url('./images/lupa.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+
+
+
+.login-link a {
+  text-decoration: none;
+  color: white;
+  margin-top: 0px;
+}
+
+.clear {
+  clear: both;
+}
+
+header {
+  background-color: rgb(32, 101, 136);
+}
+
+
+
+.build {
+  
+ padding-top: 20px;
+
+}
+
+.build-city {
+  
+  background-image: url("./images/city-scape.svg");
+  background-size: cover;
+  background-position-x: 200px;
+  height: 300px;
+
+}
+
+.build-text {
+  width: 500px;
+  margin: 20px auto 20px auto;
+  color: white;
+  
+}
+
+.build-text a{
+
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(240, 146, 51);
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 25px;
+  display: block;
+  width: 130px;
+}
+
+#orgs{
+  background-color: rgb(39, 53, 71);
+  margin: 0;
+  color: white;
+  height: 400px;
+  padding-top: 20px;
+}
+.org-pict {
+  margin: 0px auto 0px; auto;
+  width: 850px;
+  height: 300px;
+}
+
+.org-text {
+  width: 400px;
+  float: right;
+}
+
+.org-link a{
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(203, 56, 55);
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  display: block;
+  width: 130px;
+}
+
+.org-text a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+#npm {
+  margin: 0;
+  background-image: url("./images/forklift.svg");
+  background-size: cover;
+  position: relative;
+  height: 400px;
+}
+
+.npm-text {
+  position: absolute;
+  left: 200px;
+  top: 50px;
+  color: white;
+  width: 400px;
+}
+
+.npm-link a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(49, 68, 88);
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  display: block;
+  width: 85px;
+}
+
+
+#make {
+  margin-top: 10px;
+  background-color: white;
+}
+
+.make-text {
+  margin: 0 auto;
+  width: 825px;
+  text-align: center;
+  color: rgb(83, 88, 98);
+}
+
+.make-logos {
+  margin: 0 auto;
+  width: 825px;
+  text-align: center;
+}
+
+#make article {
+  
+  width: 271px;
+  float: left;
+  margin-top: 20px;
+  color: rgb(135, 145, 156);
+  font-size: 0.8em;
+}
+
+#make a{
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(208, 74, 73);
+}
+
+#make p{
+  margin: 10px;
+}
